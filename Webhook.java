@@ -123,7 +123,7 @@ public class Webhook {
         String apiUrl = System.getenv("API_URL2");
         String apiKey = System.getenv("API_KEY2");
         String apiModel = "black-forest-labs/FLUX.1-schnell-Free";
-        String promptNew = String.format("%s 영단어를 바탕으로 어울리는 심플한 아이콘느낌의 이미지를 생성해줘. 단 중국풍음 피하고 최대한 깔끔한 느낌으로 만들어줘", prompt);
+        String promptNew = String.format("%s에 있는 영단어를 표현할 수 있는 아이콘응 한국웹툰과 비슷한 느낌으로 출력해줘.", prompt);
         String payload = """
                 {
                     "model": "%s",
