@@ -4,7 +4,7 @@ import java.net.http.HttpRequest; // HTTP 요청을 만들기 위한 객체
 import java.net.http.HttpResponse; // HTTP 응답을 받을 때 사용하는 객체
 import java.util.Random;
 
-public class Solution02 {
+public class Webhook {
     public static void main(String[] args) {
 
         String prompt = choosePrompt();
